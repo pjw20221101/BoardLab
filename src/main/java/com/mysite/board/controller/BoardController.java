@@ -22,9 +22,7 @@ public class BoardController {
 	
 	@GetMapping("/")
 	public String mainPage(Model model) {
-		
-		
-		
+				
 		List<Board> boardList = this.boardService.getboardList();
 		
 		
